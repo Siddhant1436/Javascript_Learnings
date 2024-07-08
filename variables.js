@@ -15,7 +15,7 @@ let isWinter = false;
 console.log("Boolean example (true): " + isJavaScriptFun); // Output: Boolean example (true): true
 console.log("Boolean example (false): " + isWinter); // Output: Boolean example (false): false
 
-// Array example
+// Array example  it is also an object
 let fruits = ["Apple", "Banana", "Cherry"];
 console.log("Array example: " + fruits); // Output: Array example: Apple,Banana,Cherry
 console.log("First element: " + fruits[0]); // Output: First element: Apple
