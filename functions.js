@@ -16,16 +16,15 @@ function square(number){
     return number*number;
 }
 
-//this is called an arrow function used widely in so many of react codes
-const cube = number => {
-    return number*number*number;
-}
 
-//another way to write the same thing
+
+//this is called an arrow function(a type of anonymous function) 
+const cube = number => {return number*number*number;};
+
+//if you have single line code then can write like this.
 const Cube = num => num * num * num;
 
-// this is an arrow function without any arguments
-//you have to put () instead of arguments
+//an arrow function without any arguments
 let age = 18;
 const legal = () => {
     return age>=18 ? true: false;
@@ -33,6 +32,13 @@ const legal = () => {
 
 //multiple arguments arrow functions
 const add = (a, b) => a + b;
+
+
+
+
+
+
+
 
 
 greet();
