@@ -31,7 +31,8 @@ const legal = () => {
 }
 
 //multiple arguments arrow functions
-const add = (a, b) => a + b;
+// () replaces { with return keyword}
+const add = (a, b) => (a + b);
 
 
 
